@@ -1,0 +1,35 @@
+{
+  "name": "cube-derive-util",
+  "version": "0.0.3",
+  "author": "cuitfanshide",
+  "license": "MIT",
+  "description": "Util facilitate to export data as file",
+  "main": "main.js",
+  "files": [
+    "index.js",
+    "main.js"
+  ],
+  "keywords": [
+    "file",
+    "util",
+    "api",
+    "xlsx"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:FanShiDe/cube-derive-util.git"
+  },
+  "dependencies": {
+    "json2csv": "^3.11.5",
+    "xlsx": "^0.10.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  }
+}
